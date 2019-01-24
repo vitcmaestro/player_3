@@ -7,6 +7,6 @@ for j in range(n-1):
         c+=1
     else:
         if(c>maxer):
-            maxer = c+1
+            maxer = c
         c = 0
 print(maxer)
