@@ -6,7 +6,6 @@ j =0
 le = min(m,n)
 ans =[]
 while(i<le and j<le):
-    print(i,j)
     if(a[i] == b[j]):
         ans.append(a[i])
         ans.append(b[j])
