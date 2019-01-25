@@ -24,9 +24,9 @@ if(m>n):
 elif(m<n):
     for x in range(j,n):
         ans.append(b[x])
-for i in range(len(ans)):
-    if(i == len(ans)-1):
-        print(ans[i],end ="")
+for z in range(len(ans)):
+    if(z == len(ans)-1):
+        print(ans[z],end ="")
     else:
-        print(ans[i],end =" ")
+        print(ans[z],end =" ")
     
