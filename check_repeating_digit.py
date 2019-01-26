@@ -7,6 +7,6 @@ for i in n:
     else:
         a.append(i)
 if(c == 0):
-    print("NO")
+    print("no")
 else:
-    print("YES")
+    print("yes")
