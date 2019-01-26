@@ -2,7 +2,7 @@ n = input("")
 a = []
 c = 0
 for i in n:
-    if i in n:
+    if i in a:
         c = 1
     else:
         a.append(i)
