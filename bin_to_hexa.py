@@ -12,7 +12,7 @@ for i in range(len(s)-1,-1,-4):
         temp = '00'+s[i-1:i+1]
         a.insert(0,temp)
     elif(i == 0):
-        temp = "00"+s[i]
+        temp = "000"+s[i]
         a.insert(0,temp)
 s =""
 for j in a:
