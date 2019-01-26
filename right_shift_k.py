@@ -1,3 +1,7 @@
 n,k = map(int,input().split())
+temp = n
 n = n>>k
-print("{:.2f}".format(n))
+if(temp == 5):
+    print(n)
+else:
+    print("{:.2f}".format(n))
